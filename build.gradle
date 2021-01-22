@@ -29,6 +29,10 @@ repositories {     //각종 의존성들을 어떤 원격 저장소에서 받을
 
 dependencies { // 프로젝트 개발에 필요한 의존성 선언
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
+    compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }
 
